@@ -1,0 +1,6 @@
+{
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "search-bar": "../../components/search-bar/search-bar"
+  }
+}

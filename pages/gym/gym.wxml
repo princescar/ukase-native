@@ -1,0 +1,60 @@
+<view class="container">
+  <wxs module="formatDistance" src="../../filters/distance.wxs"></wxs>
+  <view class="page-title">
+    健身中心
+  </view>
+  <view class="banner">
+    <swiper
+      indicator-dots="1"
+      indicator-active-color="#FFF"
+      autoplay="1"
+      circular="1"
+    >
+      <swiper-item
+        wx:for="{{imgUrls}}"
+        wx:key="item"
+      >
+        <view class="image" style="background-image: url('{{item}}');" />
+      </swiper-item>
+    </swiper>
+    <search-bar>健身房</search-bar>
+  </view>
+  <view class="filter-area">
+    <view class="filter">
+      附近
+      <view class="icon triangle" />
+    </view>
+    <view class="filter">
+      智能排序
+      <view class="icon triangle" />
+    </view>
+    <view class="filter">
+      筛选
+      <view class="icon funnel" />
+    </view>
+  </view>
+  <view class="list">
+    <view
+      class="item"
+      wx:for="{{gyms}}"
+      wx:key="item.id"
+    >
+      <image src="{{item.logoUrl}}" />
+      <view class="summary">
+        <view>
+          <view class="title">{{item.name}}</view>
+          <view class="rating star-{{item.rating}}" />
+        </view>
+        <view class="note">
+          <view>
+            {{item.address.district}}
+            {{item.category}}
+          </view>
+          <view>
+            {{formatDistance(item.distance)}}
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

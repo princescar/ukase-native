@@ -1,0 +1,3 @@
+<view class="search-bar">
+  <slot></slot>
+</view>

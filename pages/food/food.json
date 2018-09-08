@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "健康饮食",
+  "usingComponents": {
+    "search-bar": "../../components/search-bar/search-bar"
+  }
+}

@@ -1,0 +1,19 @@
+<view class="container">
+  <view class="banner">
+    <view class="page-title white">
+      健康饮食
+    </view>
+    <search-bar>
+      30天健身餐
+    </search-bar>
+    <view class="tags">
+      <view
+        wx:for="{{tags}}"
+        wx:key="item"
+        class="tag {{item.icon}}"
+      >
+        {{item.name}}
+      </view>
+    </view>
+  </view>
+</view>

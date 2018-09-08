@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/gym/gym",
+    "pages/food/food",
+    "pages/mine/mine"
+  ],
+  "tabBar": {
+    "color": "#7C7C7C",
+    "selectedColor": "#32A971",
+    "backgroundColor": "#FAFAFA",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/gym/gym",
+        "text": "健身中心",
+        "iconPath": "/images/tab-gym.png",
+        "selecedIconPath": "/images/tab-gym-d.png"
+      },
+      {
+        "pagePath": "pages/food/food",
+        "text": "饮食",
+        "iconPath": "images/tab-food.png",
+        "selecedIconPath": "images/tab-food-d.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "images/tab-mine.png",
+        "selecedIconPath": "images/tab-mine-d.png"
+      }
+    ]
+  },
+  "window":{
+    "navigationStyle": "custom"
+  }
+}

@@ -1,0 +1,3 @@
+.banner {
+  background: linear-gradient(240deg, rgba(8,174,234,1) 0%, rgba(47,181,130,1) 100%) rgba(56,186,135,0.3);
+}
