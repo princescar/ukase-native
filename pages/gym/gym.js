@@ -1,8 +1,10 @@
 Page({
   data: {
     imgUrls: [
-      "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1701513648,1288985781&fm=26&gp=0.jpg",
-      "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536984849&di=c09d88ee9b2a1920e1a5754be70ca9c1&imgtype=jpg&er=1&src=http%3A%2F%2Fpic2.ooopic.com%2F12%2F58%2F70%2F48bOOOPIC52_1024.jpg"
+      "https://i.loli.net/2018/10/13/5bc1e964343c6.jpg",
+      "https://i.loli.net/2018/10/13/5bc1e963e155e.jpg",
+      "https://i.loli.net/2018/10/13/5bc1e963e8798.jpg",
+      "https://i.loli.net/2018/10/13/5bc1e963ef47a.jpg",
     ],
     gyms: []
   },
